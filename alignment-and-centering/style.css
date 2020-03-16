@@ -29,26 +29,16 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 
 
 /* We start writing out flexbox here. The above is just page setup */
+
+/* VIDEO 2: INTRO TO FLEXBOX */
 .container {
-  display:flex;
-  border:10px solid mistyrose;
-  height:100vh;
-  align-items:flex-start;
+  display: flex;
+  border: 5px solid goldenrod;
+  height: 100vh;
+
+/* VIDEO 3: FLEX-DIRECTION */
+
 }
 
-.box {
-  width:33.333%;
-}
 
-.box2 {
-  padding-bottom: 200px;
-}
 
-.box6 {
-  padding-bottom: 0;
-}
-
-.box9 {
-  padding-bottom: 50px;
-  align-self:stretch;
-}
