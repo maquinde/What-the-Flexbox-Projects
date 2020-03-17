@@ -29,16 +29,6 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 
 
 /* We start writing out flexbox here. The above is just page setup */
-
-/* VIDEO 2: INTRO TO FLEXBOX */
 .container {
   display: flex;
-  border: 5px solid goldenrod;
-  height: 100vh;
-
-/* VIDEO 3: FLEX-DIRECTION */
-
 }
-
-
-
