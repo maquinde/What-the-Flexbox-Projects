@@ -31,14 +31,33 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 /* We start writing out flexbox here. The above is just page setup */
 .container {
   display:flex;
+  border: 10px solid goldenrod;
 }
 
 .box1 {
-  flex:10 5 400px;
+  flex-basis: 400px;
+  /* FLEX-BASIS SETS THE SIZE OF THE FLEX-ITEM */
+
+  flex-grow: 10;
+  /* FLEX-GROW SETS HOW MUCH EXTRA SPACE IS TAKEN UP BY FLEX-ITEMS */
+
+  flex-shrink: 15;
+  /* FLEX-SHRINK SETS HOW MUCH THE FLEX-ITEM SHOULD SHRINK COMPARED TO OTHER FLEX-ITEMS */
+
+  /* flex: 10 15 400px; */
+  /* SAME AS ABOVE */
 }
 
 .box2 {
-  flex:1 1 400px;
+  flex-basis: 400px;
+  /* FLEX-BASIS SETS THE SIZE OF THE FLEX-ITEM */
+
+  flex-grow: 1;
+  /* FLEX-GROW SETS HOW MUCH EXTRA SPACE IS TAKEN UP BY FLEX-ITEMS */
+
+  flex-shrink: 1;
+  /* FLEX-SHRINK SETS HOW MUCH THE FLEX-ITEM SHOULD SHRINK COMPARED TO OTHER FLEX-ITEMS */
+
 }
 
 
